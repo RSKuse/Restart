@@ -16,7 +16,7 @@ struct OnboardingView: View {
   @State private var isAnimating: Bool = false
   @State private var imageOffset: CGSize = .zero
   @State private var indicatorOpacity: Double = 1.0
-  @State private var textTitle: String = "Share."
+  @State private var textTitle: String = "Ndalo."
   
   let hapticFeedback = UINotificationFeedbackGenerator()
   
